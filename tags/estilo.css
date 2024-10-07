@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'burguer' ;
+    src: url('./fontes/Insanibc.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'html';
+    src: url('./fontes/html5_values.ttf');
+    font-weight: normal;
+
+}
+
+:root {
+    --cor0: rgb(165, 165, 165);
+    --cor1: gray;
+    --cor2: rgb(49, 51, 66);
+    --cor3: #1d1c1c;
+    --cor4: #ec591f;
+    --cor5: rgb(11, 101, 219);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #ffffff, gray);
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+main {
+    background-color: #ec591f;
+    margin: 10px 500px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px #1d1c1c;
+}
+
+nav {
+    background-color: gray;
+    width: 450px;
+    padding: 10px 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+
+div.h3 {
+    background-color: rgb(165, 165, 165);
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 5px;
+}
+
+h1 {
+    color: rgb(49, 51, 66);
+    text-align: center;
+    background-image: linear-gradient(to bottom, #fff, #979797);
+    box-shadow: inset 2px 2px 5px gray;
+    padding: 10px;
+    font-family: sans-serif;;
+    }
+
+#html {
+    font-family:'html', 'Arial';
+    font-weight: normal;
+    font-size: 60px;
+    margin: 0px 41%;
+}
+
+#azul {
+    background-color: rgb(11, 101, 219);
+}
+
+h2 {
+    color:rgb(49, 51, 66);
+    text-align: center;
+    font-family: 'burguer';
+    font-weight: lighter;
+}
+
+h3 {
+    text-align: center;
+    color:rgb(49, 51, 66);
+    font-family: 'burguer';
+    font-weight: 100;
+}
+
+ul {
+margin: 2px 2px;
+}
+
+li {
+    background-color: white;
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    width: 250px;
+    margin: 15px auto;
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 10px;
+    list-style: none;
+    box-shadow: inset 1px 1px 2px black;
+    text-decoration: none;
+}
+
+li.licss:hover {
+    color:rgb(11, 101, 219) ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+ 
+li.lihtml:hover {
+    color:#ec591f ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 400px 0px 0px 0px;
+}
+
+#tipocaixas {
+width: 350px;
+margin: 10px;
+border: rgb(185, 185, 185) solid 5px;
+border-radius: 10px;
+}
+
+
+#container {
+    background-color: rgb(75, 230, 152);
+    border: rgb(2, 49, 45) solid 5px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    margin: auto;
+}

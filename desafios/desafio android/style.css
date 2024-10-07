@@ -1,0 +1,148 @@
+@font-face {
+    font-family: android;
+    src: url("fontes/idroid.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header {
+    background-image: linear-gradient(to top, #174f31, #3ddb84);
+    padding: 7px;
+    font-family: sans-serif;
+    margin: 0px;
+}
+header > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 6px;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+}
+
+header > a:hover {
+    background-color: #3ddb84;
+    color: #174f31;
+    transition-duration: .5s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #007710;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+.link {
+    color: #007710;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0px 0px;
+    background-color: #e7e5c2;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    margin: 0px 27%;
+    padding: 5px 25px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+main > p {
+    font-size: large;
+}
+
+h2 {
+    color: #174f31;
+    text-align: start;
+    font-family: android;
+}
+
+h3 {
+   color: #174f31;
+   text-align: start;
+   font-family: android;
+   background-image: linear-gradient(to left, white, #c5ebd6);
+   margin: 0px;
+}
+
+h4 {
+    color: white;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#extra {
+    text-align: start;
+    background-color: #2fa866;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 0px;
+}
+
+nav {
+    font-weight: bold;
+}
+
+section {
+background-color: #1a5c38;
+padding: 25px 30px;
+position: relative;
+margin: 0px 27%;
+padding-bottom: 25%;
+}
+
+iframe {
+    margin: auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    padding: 5px 10px;
+    color: white;
+    background-color: #1a5c38;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+footer > a {
+    text-decoration: none;
+    color: white;
+}
