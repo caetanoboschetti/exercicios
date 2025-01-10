@@ -26,6 +26,7 @@
     --taghtml:rgb(40, 109, 201);
     --valor:rgb(147, 202, 147);
     --escrita:rgb(185, 116, 70);
+    --comentario: rgb(61, 138, 61);
 }
 
 header {
@@ -36,7 +37,7 @@ header {
 }
 
 body {
-    background-image: linear-gradient(to bottom, #ffffff, gray);
+    background-image: url(./imagens/);
     background-attachment: fixed;
     margin: 0px;
 }
@@ -69,6 +70,9 @@ div.h3 {
 div.vstudio {
     background-color: rgb(32, 32, 32);
     margin: 5px;
+    padding: 7px;
+    border: 2px solid var(--cinza);
+    border-radius: 5px;
 }
 
 p {
@@ -77,27 +81,32 @@ p {
 }
 
 p.atributo {
-    color: rgb(101, 192, 245);
+    color: var(--atributo);
     font-family: serif;
 }
 
 p.tagcss {
-    color: rgb(247, 227, 141);
+    color: var(--tagcss);
     font-family: serif;
 }
 
 p.taghtml {
-    color: rgb(40, 109, 201);
+    color: var(--taghtml);
     font-family: serif;
 }
 
 p.valor {
-    color: rgb(147, 202, 147);
+    color: var(--valor);
     font-family: serif;
 }
 
 p.escrita {
-    color: rgb(185, 116, 70);
+    color: var(--escrita);
+    font-family: serif;
+}
+
+p.comentario {
+    color: var(--comentario);
     font-family: serif;
 }
 
