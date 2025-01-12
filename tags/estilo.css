@@ -10,7 +10,12 @@
     font-family: 'html';
     src: url('./fontes/html5_values.ttf');
     font-weight: normal;
+}
 
+@font-face {
+    font-family: 'codigo';
+    src: url(./fontes/Code\ New\ Roman.woff);
+    font-weight: normal;
 }
 
 :root {
@@ -27,24 +32,20 @@
     --valor:rgb(147, 202, 147);
     --escrita:rgb(185, 116, 70);
     --comentario: rgb(61, 138, 61);
-}
-
-header {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
-    padding: 10px;
+    --colchete: rgb(238, 188, 25);
+    --arroba: rgb(144, 43, 153);
 }
 
 body {
-    background-image: url(./imagens/);
+    background-image: linear-gradient(to bottom, rgb(36, 36, 36), rgb(0, 0, 0));
     background-attachment: fixed;
     margin: 0px;
 }
 
 main {
     background-color: #ec591f;
-    margin: 10px 500px;
+    margin: 10px auto;
+    width: 500px;
     border-radius: 15px;
     padding: 10px;
     box-shadow: 2px 2px 10px #1d1c1c;
@@ -82,49 +83,46 @@ p {
 
 p.atributo {
     color: var(--atributo);
-    font-family: serif;
 }
 
 p.tagcss {
     color: var(--tagcss);
-    font-family: serif;
 }
 
 p.taghtml {
     color: var(--taghtml);
-    font-family: serif;
 }
 
 p.valor {
     color: var(--valor);
-    font-family: serif;
 }
 
 p.escrita {
     color: var(--escrita);
-    font-family: serif;
 }
 
 p.comentario {
     color: var(--comentario);
-    font-family: serif;
+}
+
+p.colchete {
+    color: var(--colchete);
+}
+
+p.arroba {
+    color: var(--arroba);
 }
 
 h1 {
-    color: rgb(49, 51, 66);
+    color: var(--taghtml);
     text-align: center;
-    background-image: linear-gradient(to bottom, #fff, #979797);
-    box-shadow: inset 2px 2px 5px gray;
-    padding: 10px;
-    font-family: sans-serif;;
+    background-color: rgb(36, 36, 36);
+    padding: 5px;
+    font-family: 'codigo', arial;
+    width: 450px;
+    border-radius: 10px;
+    margin: 20px auto;
     }
-
-#html {
-    font-family:'html', 'Arial';
-    font-weight: normal;
-    font-size: 60px;
-    margin: 0px 41%;
-}
 
 #azul {
     background-color: rgb(11, 101, 219);
@@ -162,6 +160,7 @@ li {
     list-style: none;
     box-shadow: inset 1px 1px 2px black;
     text-decoration: none;
+    transition: 0.2s;
 }
 
 li.licss:hover {
@@ -218,4 +217,5 @@ button:hover {
     color: #b8b8b8;
     background-color: rgb(148, 7, 7);
     border-color: rgb(94, 94, 94);
+    transition: 0.3s;
 }
