@@ -33,7 +33,7 @@
     --escrita:rgb(185, 116, 70);
     --comentario: rgb(61, 138, 61);
     --colchete: rgb(238, 188, 25);
-    --arroba: rgb(144, 43, 153);
+    --arroba: rgb(186, 69, 197);
 }
 
 body {
@@ -142,11 +142,24 @@ h3 {
     color:rgb(255, 255, 255);
     font-family: 'codigo';
     font-weight: normal;
+    padding: 1px;
+    margin: 0px;
 }
 
 ul {
 margin: 2px 2px;
 padding: 0px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+abbr:hover {
+    color: rgb(231, 203, 79);
+    cursor: pointer;
+    transition: 0.3s;
+    background-image: radial-gradient(blue, red);
 }
 
 li {
