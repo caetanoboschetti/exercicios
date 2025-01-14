@@ -159,7 +159,7 @@ abbr:hover {
     color: rgb(231, 203, 79);
     cursor: pointer;
     transition: 0.3s;
-    background-image: radial-gradient(blue, red);
+    background-image: ;
 }
 
 li {
