@@ -33,7 +33,7 @@
 
                 <div class="h3">
                     <h4><abbr title="tipos de links">links</abbr></h4>
-                    <div class="h4"><h3><abbr title="css dentro do html">link:css</abbr></h3>
+                    <div class="h4"><h3><abbr title="css externo linkado">link:css</abbr></h3>
                     <div class="vstudio">
                         <p class="atributo">link:css</p> <p class="comentario">&lt;!-- conectar com css externo --&gt;</p><br></p>
                     </div>
@@ -43,22 +43,41 @@
 
             <nav>
                 <h2>Textos</h2>
-                <ul>
-                    <abbr title="títulos">
-                        <li class="lihtml">h1 , h2 [...] h6</li>
-                    </abbr>
 
-                    <abbr title="parágrafo">
-                        <li class="lihtml">p</li>
-                    </abbr> <!--parágrafo-->
+                <div class="h3">
+                    <h3><abbr title="títulos">H( )</abbr></h3>
+                    <div class="vstudio">
+                        <p>&lt;</p><p class="taghtml">h1</p><p>&gt;</p><p>Título de importância 1</p> <p>&lt;/</p><p class="taghtml">h1</p><p>&gt;</p><p></p><br>
+                        <p class="comentario">&lt;!-- do 1 ao 6, sendo importância decrescente --&gt;</p>
+                    </div>
+                </div>
 
-                    <abbr title="link">
-                        <li class="lihtml">a</li>
-                    </abbr> <!--link para algo-->
+                <div class="h3">
+                    <h3><abbr title="parágrafo">p</abbr></h3>
+                    <div class="vstudio">
+                        <p>&lt;</p><p class="taghtml">p</p><p>&gt;</p><p>parágrafo exemplo</p> <p>&lt;/</p><p class="taghtml">p</p><p>&gt;</p><p></p><br>
+                        <p class="comentario">&lt;!-- sempre escrever em parágrafos --&gt;</p>
+                    </div>
+                </div>
 
-                    <abbr title="parágrafo de exemplo">
-                        <li class="lihtml">lorem</li>
-                    </abbr>
+                <div class="h3">
+                    <h3><abbr title="link clicável">a</abbr></h3>
+                    <div class="vstudio">
+                        <p>&lt;</p><p class="taghtml">a</p><p>&gt;</p><p class="atributo" style="text-decoration: underline;">link</p> <p>&lt;/</p>
+                        <p class="taghtml">a</p><p>&gt;</p><p></p><br>
+                        <p class="atributo">href </p><p>= </p><p class="escrita">"#"</p> <p class="comentario">&lt;!-- link, url ou pasta --&gt;</p><br>
+                        <p class="atributo">target </p><p>=</p><p class="escrita">"_blank"</p><p class="comentario">&lt;!-- abrir em nova guia --&gt;</p><br>
+                        <p class="atributo">target </p><p>=</p><p class="escrita">"_self"</p><p class="comentario">&lt;!-- abrir na mesma guia --&gt;</p><br>
+                    </div>
+                </div>
+
+                <div class="h3">
+                    <h3><abbr title="parágrafo de exemplo">lorem</abbr></h3>
+                    <div class="vstudio">
+                        <p>&lt;</p><p class="taghtml">lorem</p><p>&gt;</p> <p class="comentario">&lt;!-- cria um parágrafo fictício --&gt;</p><br>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati consequuntur dolor odio voluptas distinctio ipsum hic eum, dicta nemo repudiandae minima reprehenderit maxime, similique a quas atque sunt doloremque.</p>
+                    </div>
+                </div>
 
                     <div class="h3">
                         <h3>Propriedades</h3>
@@ -88,6 +107,10 @@
 
                         <abbr title="abreviações">
                             <li class="lihtml">abbr</li>
+                        </abbr> <!--abreviações-->
+
+                        <abbr title="itálico">
+                            <li class="lihtml">i</li>
                         </abbr> <!--abreviações-->
                     </div>
                 </ul>

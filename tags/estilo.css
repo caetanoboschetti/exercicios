@@ -37,8 +37,9 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(10, 15, 10));
     background-attachment: fixed;
+    background: black url(https://p4.wallpaperbetter.com/wallpaper/413/876/930/background-black-minimalistic-waves-wallpaper-preview.jpg)center center no-repeat fixed;
+    background-size: 1000px;
     margin: 0px;
 }
 
