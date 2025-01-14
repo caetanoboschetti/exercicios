@@ -75,6 +75,11 @@ div.h3 {
     padding: 0px;
 }
 
+div.h3:hover div.vstudio {
+    display: block;
+    transition: 1s;
+}
+
 div.h4 {
     background-color: rgb(29, 28, 28);
     border: 1px solid var(--cinza);
@@ -89,6 +94,7 @@ div.vstudio {
     padding: 7px;
     border: 1px solid var(--cinza);
     border-radius: 10px;
+    display: none;
 }
 
 p {
