@@ -75,16 +75,16 @@ div.h3 {
     padding: 0px;
 }
 
-div.h3:hover div.vstudio {
+div.h4:hover div.vstudio {
     display: block;
-    transition: 1s;
+    transition: 2s;
 }
 
 div.h4 {
     background-color: rgb(29, 28, 28);
     border: 1px solid var(--cinza);
     border-radius: 10px;
-    margin: 10px 0px;
+    margin: 10px 20px;
     padding: 0px;
 }
 
@@ -189,6 +189,19 @@ h4>abbr:hover {
     color: var(--arroba);
 }
 
+abbr#tabelas:active #exemplo{
+display: block;
+}
+#exemplo {
+    background-color: var(--quase-preto);
+    width: 230px;
+    height: 230px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: auto;
+    display: none;
+    padding: 10px;
+}
 li {
     background-color: white;
     color: rgb(58, 58, 58);

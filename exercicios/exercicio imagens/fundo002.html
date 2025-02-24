@@ -93,12 +93,30 @@
             border-radius: 20px;
             width: 200px;
             height: 200px;
+            margin: 20px auto;
         }
         #anime:hover {
             transform: translate(200px);
             transition: 1s;
         }
 
+        #tabela1 {
+            background-color: rgba(128, 128, 128, 0.404);
+            border-collapse: collapse;
+            margin: auto;
+        }
+        .tr2 {
+            background-color: gray;
+        }
+        .td1 {
+            border: 1px solid black;
+            width: 400px;
+        }
+        .td2 {
+            background-color: yellow;
+            border: 1px solid black;
+            width: 400px;
+        }
     </style>
 </head>
 <body>
@@ -138,6 +156,24 @@
 
     <div id="anime">
     </div>
+
+    <table id="tabela1">
+        <tr class="tr2">
+            <td class="td1">A1</td>
+            <td class="td1">B1</td>
+            <td class="td1">C1</td>
+        </tr>
+        <tr class="tr1">
+            <td class="td1">A2</td>
+            <td class="td1">B2</td>
+            <td class="td1">C2</td>
+        </tr>
+        <tr class="tr1">
+            <td class="td1">A3</td>
+            <td class="td2">B3</td>
+            <td class="td1">C3</td>
+        </tr>
+    </table>
 
     <footer>
         Feito por Caetano Cassanta Boschetti
