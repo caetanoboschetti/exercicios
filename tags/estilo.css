@@ -88,6 +88,10 @@ div.h4 {
     padding: 0px;
 }
 
+div.vstudio > p {
+    font-size: 17px;
+}
+
 div.vstudio {
     background-color: rgb(32, 32, 32);
     margin: 5px;
@@ -159,6 +163,7 @@ h3 {
     font-weight: normal;
     padding: 1px;
     margin: 0px;
+    font-size: 20px;
 }
 
 h4 {
@@ -187,6 +192,10 @@ abbr:hover {
 
 h4>abbr:hover {
     color: var(--arroba);
+}
+
+abbr#tabelas:active #exemplo > p {
+    font-size: 10px;
 }
 
 abbr#tabelas:active #exemplo{

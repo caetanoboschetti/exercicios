@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.divtable {
+    position: relative;
+}
+
+table {
+    position: relative;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    margin:100px auto;
+}
+
+tbody > tr:nth-child(2n-1) {
+    background-color: lightgray; 
+}
+
+caption {
+    color: black;
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+thead {
+    background: gray;
+    color: white;
+    position: sticky;
+    top: -1px;
+    border: 1px solid black;
+}
+
+.carea {
+    background: gray;
+}
+
+th {
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+
+#tdtotal {
+    color: white;
+}
